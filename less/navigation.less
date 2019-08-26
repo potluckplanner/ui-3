@@ -2,11 +2,23 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #ffcc99;
+	background-color: #f9e090;
+	width: 100%;
+	border-bottom: 2.5px groove black;
 	main-title {
 		width: 50%;
+		padding: 1rem;
+		font-size: 3rem;
 	}
-	links {
+	.links {
+		display: flex;
+		justify-content: space-around;
+		padding: 1rem;
 		width: 50%;
+		a {
+			.link-style(#993366, 1.5rem, 1.3rem);
+			padding: 0.4rem;
+			margin: 1rem;
+		}
 	}
 }
