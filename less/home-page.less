@@ -1,5 +1,5 @@
 .container {
-	background-image: linear-gradient(#f9e090, #ff935c, #993366);
+	background-image: linear-gradient(#f9e090, #ff935c, #dc5353);
 	header {
 		.header-img {
 			display: flex;
@@ -8,20 +8,32 @@
 			width: 100%;
 			padding: 2rem;
 			margin: 0rem 2rem 0rem 2rem;
+			@media @mobile {
+				justify-content: space-between;
+			}
 			.left-img {
 				width: 30%;
 				height: auto;
-				border: 1rem ridge #993366;
+				border: 1rem ridge @bg-color;
+				@media @mobile {
+					width: 85%;
+				}
 			}
 			.mid-img {
 				width: 30%;
 				height: auto;
-				border: 1rem ridge #993366;
+				border: 1rem ridge @bg-color;
+				@media @mobile {
+					display: none;
+				}
 			}
 			.right-img {
 				width: 30%;
 				height: auto;
-				border: 1rem ridge #993366;
+				border: 1rem ridge @bg-color;
+				@media @mobile {
+					display: none;
+				}
 			}
 		}
 		.header-box {
@@ -29,20 +41,40 @@
 			justify-content: space-around;
 			align-items: center;
 			width: 100%;
+			@media @mobile {
+				flex-direction: column;
+			}
 			.mission-statement {
 				width: 50%;
+				@media @mobile {
+					width: 70%;
+				}
+				h2 {
+					@media @mobile {
+						display: flex;
+						justify-content: center;
+					}
+				}
 			}
 			.btn-container {
 				display: flex;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
+				border: 1rem ridge @box-bg;
 				width: 25%;
 				align-items: center;
 				padding: 1rem;
+				@media @mobile {
+					width: 60%;
+					margin: 1rem 0rem 0rem 0rem;
+				}
 				btn {
-					.btn-style(#993366, 1rem, 16px);
+					.btn-style(@bg-color, 1rem, 16px);
 					padding: 1rem;
 					margin: 1rem;
+				}
+				btn:hover {
+					background-color: @medium-dark;
+					color: @bg-color;
 				}
 			}
 		}
@@ -53,15 +85,22 @@
 		align-items: center;
 		.top-row {
 			display: flex;
+			@media @mobile {
+				flex-direction: column;
+				align-items: center;
+			}
 			.top-left {
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
-				background-color: #993366;
+				border: 1rem ridge @box-bg;
+				background-color: @bg-color;
 				padding: 1rem;
 				margin: 4rem;
 				width: 45%;
+				@media @mobile {
+					width: 85%;
+				}
 				.create {
 					width: 35%;
 					height: auto;
@@ -74,11 +113,14 @@
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
-				background-color: #993366;
+				border: 1rem ridge @box-bg;
+				background-color: @bg-color;
 				padding: 1rem;
 				margin: 4rem;
 				width: 45%;
+				@media @mobile {
+					width: 85%;
+				}
 				.friends {
 					width: 35%;
 					height: auto;
@@ -90,15 +132,22 @@
 		} //closes .top-row
 		.mid-row {
 			display: flex;
+			@media @mobile {
+				flex-direction: column;
+				align-items: center;
+			}
 			.mid-left {
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
-				background-color: #993366;
+				border: 1rem ridge @box-bg;
+				background-color: @bg-color;
 				padding: 1rem;
 				margin: 4rem;
 				width: 45%;
+				@media @mobile {
+					width: 85%;
+				}
 				.calendar {
 					width: 35%;
 					height: auto;
@@ -111,11 +160,14 @@
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
-				background-color: #993366;
+				border: 1rem ridge @box-bg;
+				background-color: @bg-color;
 				padding: 1rem;
 				margin: 4rem;
 				width: 45%;
+				@media @mobile {
+					width: 85%;
+				}
 				.food {
 					width: 35%;
 					height: auto;
@@ -127,15 +179,22 @@
 		} //closes .mid-row
 		.bottom-row {
 			display: flex;
+			@media @mobile {
+				flex-direction: column;
+				align-items: center;
+			}
 			.bottom-left {
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
-				background-color: #993366;
+				border: 1rem ridge @box-bg;
+				background-color: @bg-color;
 				padding: 1rem;
 				margin: 4rem;
 				width: 45%;
+				@media @mobile {
+					width: 85%;
+				}
 				.more-food {
 					width: 35%;
 					height: auto;
@@ -148,11 +207,14 @@
 				display: flex;
 				align-items: center;
 				flex-direction: column;
-				border: 1rem ridge #f9e090;
-				background-color: #993366;
+				border: 1rem ridge @box-bg;
+				background-color: @bg-color;
 				padding: 1rem;
 				margin: 4rem;
 				width: 45%;
+				@media @mobile {
+					width: 85%;
+				}
 				.army {
 					width: 35%;
 					height: auto;
@@ -167,6 +229,13 @@
 		.info {
 			padding: 1rem;
 			margin: 0rem 0rem 0rem 5rem;
+			@media @mobile {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+				padding: 0;
+				margin: 0;
+			}
 			h3 {
 				padding: 0.5rem;
 			}

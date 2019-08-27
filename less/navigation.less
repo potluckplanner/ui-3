@@ -2,9 +2,12 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #f9e090;
+	background-color: @light;
 	width: 100%;
 	border-bottom: 2.5px groove black;
+	@media @mobile {
+		flex-direction: column;
+	}
 	.main-title {
 		padding: 1rem;
 		font-size: 4rem;
@@ -14,10 +17,17 @@ nav {
 		justify-content: space-around;
 		padding: 1rem;
 		width: 50%;
+		@media @mobile {
+			width: 100%;
+		}
 		a {
-			.link-style(#993366, 1.5rem, 1.3rem);
+			.link-style(@bg-color, 1.5rem, 1.3rem);
 			padding: 0.4rem;
 			margin: 1rem;
+		}
+		a:hover {
+			background-color: @medium-dark;
+			color: @bg-color;
 		}
 	}
 }
