@@ -165,10 +165,9 @@ nav {
   width: 100%;
   border-bottom: 2.5px groove black;
 }
-nav main-title {
-  width: 50%;
+nav .main-title {
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 nav .links {
   display: flex;
@@ -188,6 +187,11 @@ nav .links a {
   padding: 0.4rem;
   margin: 1rem;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
 .container {
   background-image: linear-gradient(#f9e090, #ff935c, #993366);
 }
@@ -202,23 +206,17 @@ nav .links a {
 .container header .header-img .left-img {
   width: 30%;
   height: auto;
-  padding: 1rem;
-  border: 1px solid black;
-  background-color: #993366;
+  border: 1rem ridge #993366;
 }
 .container header .header-img .mid-img {
   width: 30%;
   height: auto;
-  padding: 1rem;
-  border: 1px solid black;
-  background-color: #993366;
+  border: 1rem ridge #993366;
 }
 .container header .header-img .right-img {
   width: 30%;
   height: auto;
-  padding: 1rem;
-  border: 1px solid black;
-  background-color: #993366;
+  border: 1rem ridge #993366;
 }
 .container header .header-box {
   display: flex;
@@ -227,13 +225,15 @@ nav .links a {
   width: 100%;
 }
 .container header .header-box .mission-statement {
-  width: 60%;
+  width: 50%;
 }
 .container header .header-box .btn-container {
   display: flex;
   flex-direction: column;
+  border: 1rem ridge #f9e090;
+  width: 25%;
+  align-items: center;
   padding: 1rem;
-  border: 1px solid black;
 }
 .container header .header-box .btn-container btn {
   background-color: #993366;
@@ -256,92 +256,123 @@ nav .links a {
   display: flex;
 }
 .container .features .top-row .top-left {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1rem ridge #f9e090;
   background-color: #993366;
   padding: 1rem;
-  margin: 1rem;
-  width: 50%;
+  margin: 4rem;
+  width: 45%;
 }
 .container .features .top-row .top-left .create {
   width: 35%;
   height: auto;
   padding: 1rem;
   border: 1px solid black;
-  background-color: #f9e090;
+  background-color: #ff935c;
 }
 .container .features .top-row .top-right {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1rem ridge #f9e090;
   background-color: #993366;
   padding: 1rem;
-  margin: 1rem;
-  width: 50%;
+  margin: 4rem;
+  width: 45%;
 }
 .container .features .top-row .top-right .friends {
   width: 35%;
   height: auto;
   padding: 1rem;
   border: 1px solid black;
-  background-color: #f9e090;
+  background-color: #ff935c;
 }
 .container .features .mid-row {
   display: flex;
 }
 .container .features .mid-row .mid-left {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1rem ridge #f9e090;
   background-color: #993366;
   padding: 1rem;
-  margin: 1rem;
-  width: 50%;
+  margin: 4rem;
+  width: 45%;
 }
 .container .features .mid-row .mid-left .calendar {
   width: 35%;
   height: auto;
   padding: 1rem;
   border: 1px solid black;
-  background-color: #f9e090;
+  background-color: #ff935c;
 }
 .container .features .mid-row .mid-right {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1rem ridge #f9e090;
   background-color: #993366;
   padding: 1rem;
-  margin: 1rem;
-  width: 50%;
+  margin: 4rem;
+  width: 45%;
 }
 .container .features .mid-row .mid-right .food {
   width: 35%;
   height: auto;
   padding: 1rem;
   border: 1px solid black;
-  background-color: #f9e090;
+  background-color: #ff935c;
 }
 .container .features .bottom-row {
   display: flex;
 }
 .container .features .bottom-row .bottom-left {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1rem ridge #f9e090;
   background-color: #993366;
   padding: 1rem;
-  margin: 1rem;
-  width: 50%;
+  margin: 4rem;
+  width: 45%;
 }
 .container .features .bottom-row .bottom-left .more-food {
   width: 35%;
   height: auto;
   padding: 1rem;
   border: 1px solid black;
-  background-color: #f9e090;
+  background-color: #ff935c;
 }
 .container .features .bottom-row .bottom-right {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1rem ridge #f9e090;
   background-color: #993366;
   padding: 1rem;
-  margin: 1rem;
-  width: 50%;
+  margin: 4rem;
+  width: 45%;
 }
 .container .features .bottom-row .bottom-right .army {
   width: 35%;
   height: auto;
   padding: 1rem;
   border: 1px solid black;
-  background-color: #f9e090;
+  background-color: #ff935c;
+}
+.container .contact .info {
+  padding: 1rem;
+  margin: 0rem 0rem 0rem 5rem;
+}
+.container .contact .info h3 {
+  padding: 0.5rem;
+}
+.container .contact .info address {
+  padding: 0.5rem;
+}
+.container .contact .info p {
+  padding: 0.5rem;
 }
