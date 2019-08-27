@@ -493,3 +493,199 @@ footer {
 .container .contact .info p {
   padding: 0.5rem;
 }
+.about-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-header h2 {
+  padding: 1rem;
+}
+.about-header .header-row {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.about-header .header-row p {
+  width: 70%;
+}
+.about-header .header-row .about-us-img {
+  width: 28%;
+  height: auto;
+  border: 1rem ridge #993366;
+}
+h2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content {
+  display: flex;
+}
+.mid-content .our-team {
+  display: flex;
+  flex-direction: column;
+}
+.mid-content .our-team .eric {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .eric .eric-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .eric .eric-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .eric .eric-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .afia {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .afia .afia-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .afia .afia-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .afia .afia-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .vish {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .vish .vish-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .vish .vish-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .vish .vish-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .madison {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .madison .madison-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .madison .madison-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .madison .madison-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .devin {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .devin .devin-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .devin .devin-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .devin .devin-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .ben {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .ben .ben-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .ben .ben-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .ben .ben-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .diana {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .diana .diana-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .diana .diana-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .diana .diana-bio h3 {
+  padding: 1rem;
+}
+.mid-content .our-team .josh {
+  display: flex;
+  width: 90%;
+  margin: 2rem;
+  border: 1rem ridge #f9e090;
+}
+.mid-content .our-team .josh .josh-img {
+  width: 25%;
+  height: auto;
+}
+.mid-content .our-team .josh .josh-bio {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.mid-content .our-team .josh .josh-bio h3 {
+  padding: 1rem;
+}
+.mid-content .img-box {
+  display: flex;
+  justify-content: center;
+}
+.mid-content .img-box .mid-img {
+  margin: 4rem;
+  width: 90%;
+  height: 90%;
+  border: 1rem ridge #993366;
+}
