@@ -1,3 +1,62 @@
+//Mixins
+.center-around() {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.center-column() {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-page-boxes() {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1rem ridge @box-bg;
+	background-color: @bg-color;
+	padding: 1rem;
+	margin: 4rem;
+	width: 45%;
+}
+
+.home-page-boxes-img() {
+	width: 35%;
+	height: auto;
+	padding: 1rem;
+	border: 1px solid black;
+	background-color: #ff935c;
+}
+
+.purple-img-style() {
+	width: 30%;
+	height: auto;
+	border: 1rem ridge @bg-color;
+}
+
+.about-us-boxes() {
+	display: flex;
+	width: 90%;
+	margin: 2rem;
+	border: 1rem ridge @box-bg;
+}
+
+.about-us-bios() {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.github-mobile-style() {
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	color: @bg-color;
+}
+
 .btn-style (@button-bg, @radius, @fontsize) {
 	background-color: @button-bg;
 	border-radius: @radius;

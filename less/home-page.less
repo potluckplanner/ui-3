@@ -2,9 +2,7 @@
 	background-image: linear-gradient(#f9e090, #ff935c, #dc5353);
 	header {
 		.header-img {
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
+			.center-around();
 			width: 100%;
 			padding: 2rem;
 			margin: 0rem 2rem 0rem 2rem;
@@ -12,34 +10,26 @@
 				justify-content: space-between;
 			}
 			.left-img {
-				width: 30%;
-				height: auto;
-				border: 1rem ridge @bg-color;
+				.purple-img-style();
 				@media @mobile {
 					width: 85%;
 				}
 			}
 			.mid-img {
-				width: 30%;
-				height: auto;
-				border: 1rem ridge @bg-color;
+				.purple-img-style();
 				@media @mobile {
 					display: none;
 				}
 			}
 			.right-img {
-				width: 30%;
-				height: auto;
-				border: 1rem ridge @bg-color;
+				.purple-img-style();
 				@media @mobile {
 					display: none;
 				}
 			}
 		}
 		.header-box {
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
+			.center-around();
 			width: 100%;
 			@media @mobile {
 				flex-direction: column;
@@ -57,11 +47,9 @@
 				}
 			}
 			.btn-container {
-				display: flex;
-				flex-direction: column;
+				.center-column();
 				border: 1rem ridge @box-bg;
 				width: 25%;
-				align-items: center;
 				padding: 1rem;
 				@media @mobile {
 					width: 60%;
@@ -80,9 +68,7 @@
 		}
 	} //closes header
 	.features {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		.center-column();
 		.top-row {
 			display: flex;
 			@media @mobile {
@@ -90,43 +76,21 @@
 				align-items: center;
 			}
 			.top-left {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				border: 1rem ridge @box-bg;
-				background-color: @bg-color;
-				padding: 1rem;
-				margin: 4rem;
-				width: 45%;
+				.home-page-boxes();
 				@media @mobile {
 					width: 85%;
 				}
 				.create {
-					width: 35%;
-					height: auto;
-					padding: 1rem;
-					border: 1px solid black;
-					background-color: #ff935c;
+					.home-page-boxes-img();
 				}
 			}
 			.top-right {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				border: 1rem ridge @box-bg;
-				background-color: @bg-color;
-				padding: 1rem;
-				margin: 4rem;
-				width: 45%;
+				.home-page-boxes();
 				@media @mobile {
 					width: 85%;
 				}
 				.friends {
-					width: 35%;
-					height: auto;
-					padding: 1rem;
-					border: 1px solid black;
-					background-color: #ff935c;
+					.home-page-boxes-img();
 				}
 			}
 		} //closes .top-row
@@ -137,43 +101,21 @@
 				align-items: center;
 			}
 			.mid-left {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				border: 1rem ridge @box-bg;
-				background-color: @bg-color;
-				padding: 1rem;
-				margin: 4rem;
-				width: 45%;
+				.home-page-boxes();
 				@media @mobile {
 					width: 85%;
 				}
 				.calendar {
-					width: 35%;
-					height: auto;
-					padding: 1rem;
-					border: 1px solid black;
-					background-color: #ff935c;
+					.home-page-boxes-img();
 				}
 			}
 			.mid-right {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				border: 1rem ridge @box-bg;
-				background-color: @bg-color;
-				padding: 1rem;
-				margin: 4rem;
-				width: 45%;
+				.home-page-boxes();
 				@media @mobile {
 					width: 85%;
 				}
 				.food {
-					width: 35%;
-					height: auto;
-					padding: 1rem;
-					border: 1px solid black;
-					background-color: #ff935c;
+					.home-page-boxes-img();
 				}
 			}
 		} //closes .mid-row
@@ -184,43 +126,21 @@
 				align-items: center;
 			}
 			.bottom-left {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				border: 1rem ridge @box-bg;
-				background-color: @bg-color;
-				padding: 1rem;
-				margin: 4rem;
-				width: 45%;
+				.home-page-boxes();
 				@media @mobile {
 					width: 85%;
 				}
 				.more-food {
-					width: 35%;
-					height: auto;
-					padding: 1rem;
-					border: 1px solid black;
-					background-color: #ff935c;
+					.home-page-boxes-img();
 				}
 			}
 			.bottom-right {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				border: 1rem ridge @box-bg;
-				background-color: @bg-color;
-				padding: 1rem;
-				margin: 4rem;
-				width: 45%;
+				.home-page-boxes();
 				@media @mobile {
 					width: 85%;
 				}
 				.army {
-					width: 35%;
-					height: auto;
-					padding: 1rem;
-					border: 1px solid black;
-					background-color: #ff935c;
+					.home-page-boxes-img();
 				}
 			}
 		} //closes .bottom-row
@@ -230,9 +150,7 @@
 			padding: 1rem;
 			margin: 0rem 0rem 0rem 5rem;
 			@media @mobile {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
+				.center-column();
 				padding: 0;
 				margin: 0;
 			}
