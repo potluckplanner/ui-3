@@ -506,13 +506,29 @@ footer {
   align-items: center;
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  .about-header .header-row {
+    flex-direction: column-reverse;
+  }
+}
 .about-header .header-row p {
   width: 70%;
+}
+@media (max-width: 500px) {
+  .about-header .header-row p {
+    width: 85%;
+  }
 }
 .about-header .header-row .about-us-img {
   width: 28%;
   height: auto;
   border: 1rem ridge #993366;
+}
+@media (max-width: 500px) {
+  .about-header .header-row .about-us-img {
+    width: 60%;
+    margin: 0 0 2rem 0;
+  }
 }
 h2 {
   display: flex;
@@ -537,6 +553,11 @@ h2 {
   width: 25%;
   height: auto;
 }
+@media (max-width: 500px) {
+  .mid-content .our-team .eric .eric-img {
+    width: 37%;
+  }
+}
 .mid-content .our-team .eric .eric-bio {
   display: flex;
   flex-direction: column;
@@ -555,6 +576,11 @@ h2 {
 .mid-content .our-team .afia .afia-img {
   width: 25%;
   height: auto;
+}
+@media (max-width: 500px) {
+  .mid-content .our-team .afia .afia-img {
+    width: 37%;
+  }
 }
 .mid-content .our-team .afia .afia-bio {
   display: flex;
@@ -575,6 +601,11 @@ h2 {
   width: 25%;
   height: auto;
 }
+@media (max-width: 500px) {
+  .mid-content .our-team .vish .vish-img {
+    width: 37%;
+  }
+}
 .mid-content .our-team .vish .vish-bio {
   display: flex;
   flex-direction: column;
@@ -583,6 +614,11 @@ h2 {
 }
 .mid-content .our-team .vish .vish-bio h3 {
   padding: 1rem;
+}
+@media (max-width: 500px) {
+  .mid-content .our-team .vish .vish-bio p {
+    font-size: 1rem;
+  }
 }
 .mid-content .our-team .madison {
   display: flex;
@@ -593,6 +629,11 @@ h2 {
 .mid-content .our-team .madison .madison-img {
   width: 25%;
   height: auto;
+}
+@media (max-width: 500px) {
+  .mid-content .our-team .madison .madison-img {
+    width: 37%;
+  }
 }
 .mid-content .our-team .madison .madison-bio {
   display: flex;
@@ -622,6 +663,11 @@ h2 {
 .mid-content .our-team .devin .devin-bio h3 {
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  .mid-content .our-team .devin .devin-bio p {
+    font-size: 1rem;
+  }
+}
 .mid-content .our-team .ben {
   display: flex;
   width: 90%;
@@ -631,6 +677,11 @@ h2 {
 .mid-content .our-team .ben .ben-img {
   width: 25%;
   height: auto;
+}
+@media (max-width: 500px) {
+  .mid-content .our-team .ben .ben-img {
+    width: 37%;
+  }
 }
 .mid-content .our-team .ben .ben-bio {
   display: flex;
@@ -651,6 +702,11 @@ h2 {
   width: 25%;
   height: auto;
 }
+@media (max-width: 500px) {
+  .mid-content .our-team .diana .diana-img {
+    width: 37%;
+  }
+}
 .mid-content .our-team .diana .diana-bio {
   display: flex;
   flex-direction: column;
@@ -670,6 +726,11 @@ h2 {
   width: 25%;
   height: auto;
 }
+@media (max-width: 500px) {
+  .mid-content .our-team .josh .josh-img {
+    width: 37%;
+  }
+}
 .mid-content .our-team .josh .josh-bio {
   display: flex;
   flex-direction: column;
@@ -682,6 +743,11 @@ h2 {
 .mid-content .img-box {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .mid-content .img-box {
+    display: none;
+  }
 }
 .mid-content .img-box .mid-img {
   margin: 4rem;

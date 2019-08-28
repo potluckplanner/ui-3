@@ -9,13 +9,23 @@
 		display: flex;
 		align-items: center;
 		padding: 1rem;
+		@media @mobile {
+			flex-direction: column-reverse;
+		}
 		p {
 			width: 70%;
+			@media @mobile {
+				width: 85%;
+			}
 		}
 		.about-us-img {
 			width: 28%;
 			height: auto;
 			border: 1rem ridge @bg-color;
+			@media @mobile {
+				width: 60%;
+				margin: 0 0 2rem 0;
+			}
 		}
 	}
 }
@@ -38,6 +48,9 @@ h2 {
 			.eric-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.eric-bio {
 				display: flex;
@@ -57,6 +70,9 @@ h2 {
 			.afia-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.afia-bio {
 				display: flex;
@@ -76,14 +92,23 @@ h2 {
 			.vish-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.vish-bio {
 				display: flex;
 				flex-direction: column;
 				padding: 1rem;
 				margin: 1rem;
+
 				h3 {
 					padding: 1rem;
+				}
+				p {
+					@media @mobile {
+						font-size: 1rem;
+					}
 				}
 			}
 		}
@@ -95,6 +120,9 @@ h2 {
 			.madison-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.madison-bio {
 				display: flex;
@@ -123,6 +151,11 @@ h2 {
 				h3 {
 					padding: 1rem;
 				}
+				p {
+					@media @mobile {
+						font-size: 1rem;
+					}
+				}
 			}
 		}
 		.ben {
@@ -133,6 +166,9 @@ h2 {
 			.ben-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.ben-bio {
 				display: flex;
@@ -152,6 +188,9 @@ h2 {
 			.diana-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.diana-bio {
 				display: flex;
@@ -171,6 +210,9 @@ h2 {
 			.josh-img {
 				width: 25%;
 				height: auto;
+				@media @mobile {
+					width: 37%;
+				}
 			}
 			.josh-bio {
 				display: flex;
@@ -186,6 +228,9 @@ h2 {
 	.img-box {
 		display: flex;
 		justify-content: center;
+		@media @mobile {
+			display: none;
+		}
 		.mid-img {
 			margin: 4rem;
 			width: 90%;
