@@ -1,0 +1,35 @@
+nav {
+	.center-around();
+	background-color: @light;
+	width: 100%;
+	border-bottom: 2.5px groove black;
+	@media @mobile {
+		flex-direction: column;
+	}
+	.main-title {
+		padding: 1rem;
+		font-size: 4rem;
+		display: flex;
+		.fas {
+			color: @bg-color;
+		}
+	}
+	.links {
+		display: flex;
+		justify-content: space-around;
+		padding: 1rem;
+		width: 50%;
+		@media @mobile {
+			width: 100%;
+		}
+		a {
+			.link-style(@bg-color, 1.5rem, 1.3rem);
+			padding: 0.4rem;
+			margin: 1rem;
+		}
+		a:hover {
+			background-color: @medium-dark;
+			color: @bg-color;
+		}
+	}
+}
